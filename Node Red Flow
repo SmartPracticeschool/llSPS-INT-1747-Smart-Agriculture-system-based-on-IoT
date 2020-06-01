@@ -1,0 +1,48 @@
+[
+    {
+        "id": "f03ad18a.8b85d",
+        "type": "ui_gauge",
+        "z": "83973af9.5435e8",
+        "name": "",
+        "group": "bed5d201.0f53b",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temperature",
+        "label": "degrees",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 540,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "bed5d201.0f53b",
+        "type": "ui_group",
+        "z": "",
+        "name": "IoT",
+        "tab": "a2affcec.1962b",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a2affcec.1962b",
+        "type": "ui_tab",
+        "z": "",
+        "name": "SmartAgriculture",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
